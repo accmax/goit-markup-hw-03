@@ -43,6 +43,12 @@ body {
   letter-spacing: 0.03em;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 h2,
 h3 {
   margin-top: 0px;
@@ -51,6 +57,7 @@ h3 {
 }
 
 a {
+  display: block;
   text-decoration: none;
 }
 
@@ -119,7 +126,7 @@ nav {
 }
 
 .site-nav .link {
-  display: block;
+  /* display: block; */
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -172,7 +179,7 @@ nav {
   margin-top: 0px;
   margin-bottom: 30px;
   color: var(--white-color);
-  text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
   font-weight: 900;
@@ -394,7 +401,6 @@ li .primary {
   margin-bottom: 30px;
 
   background-color: var(--white-color);
-  border: 1px solid #eeeeee;
 }
 
 .project:nth-child(3n) {
