@@ -203,17 +203,18 @@ nav {
   display: inline-block;
   min-width: 200px;
   padding: 10px 32px 9px;
-  /* margin-bottom: 200px; */
-  color: var(--white-color);
-  background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border: 1px, solid, transparent;
-  border-radius: 4px;
+
+  text-align: center;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  text-align: center;
   letter-spacing: 0.06em;
+
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 
 /* Наши особенности */
@@ -249,7 +250,6 @@ nav {
 
 .features-list p {
   margin-top: 0px;
-  /* margin-bottom: 0px; */
 }
 
 .features-list h3 {
@@ -272,9 +272,6 @@ nav {
 }
 
 /* Наша команда */
-/* .container.team {
-  padding-top: 94px;
-} */
 
 .section-team {
   padding-top: 94px;
@@ -371,37 +368,36 @@ li .primary {
 }
 
 .filter-button {
-  /* display: flex; */
+  padding: 6px 22px;
+  text-align: center;
+
   font-family: roboto, sans-serif;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  text-align: center;
+
   background-color: var(--primary-background-color);
   border-radius: 4px;
   border-style: none;
-  padding: 6px 22px;
-  /* width: 128px;
-  height: 38px; */
 }
 
 .filter-button:hover,
 .filter-button:focus {
+  padding: 6px 22px;
+  text-align: center;
+
   font-family: inherit;
   color: var(--white-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  text-align: center;
+
   background-color: var(--accent-color);
   border-radius: 4px;
   border-style: none;
-  padding: 6px 22px;
-  /* width: 128px;
-  height: 38px; */
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -431,7 +427,6 @@ li .primary {
 }
 
 .work-title {
-  /* margin-left: 24px; */
   margin-bottom: 4px;
   text-align: left;
 
