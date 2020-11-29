@@ -180,11 +180,25 @@ nav {
 /* Hero section */
 
 .hero {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
 
   background-color: var(--secondary-background-color);
   text-align: center;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/Hero-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -237,6 +251,17 @@ nav {
 
   font-size: 14px;
   line-height: 1.71;
+}
+
+.features-list::before {
+  display: inline-block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+
+  background-color: var(--primary-background-color);
+  border-radius: 4px;
 }
 
 .features-list:not(:last-child) {
@@ -381,6 +406,7 @@ li .primary {
   background-color: var(--primary-background-color);
   border-radius: 4px;
   border-style: none;
+  cursor: pointer;
 }
 
 .filter-button:hover,
@@ -420,6 +446,11 @@ li .primary {
   margin-bottom: 30px;
 
   background-color: var(--white-color);
+}
+
+.project:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project:nth-child(3n) {
